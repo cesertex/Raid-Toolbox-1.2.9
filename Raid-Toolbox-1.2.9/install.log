@@ -1,0 +1,444 @@
+Collecting requests>=2.20.1
+  Downloading requests-2.25.1-py2.py3-none-any.whl (61 kB)
+Collecting certifi>=2017.4.17
+  Downloading certifi-2020.12.5-py2.py3-none-any.whl (147 kB)
+Collecting chardet<5,>=3.0.2
+  Downloading chardet-4.0.0-py2.py3-none-any.whl (178 kB)
+Collecting idna<3,>=2.5
+  Downloading idna-2.10-py2.py3-none-any.whl (58 kB)
+Collecting urllib3<1.27,>=1.21.1
+  Downloading urllib3-1.26.2-py2.py3-none-any.whl (136 kB)
+Installing collected packages: certifi, chardet, idna, urllib3, requests
+  WARNING: The script chardetect.exe is installed in 'C:\Users\jonat\AppData\Roaming\Python\Python39\Scripts' which is not on PATH.
+  Consider adding this directory to PATH or, if you prefer to suppress this warning, use --no-warn-script-location.
+Successfully installed certifi-2020.12.5 chardet-4.0.0 idna-2.10 requests-2.25.1 urllib3-1.26.2
+WARNING: You are using pip version 20.2.3; however, version 20.3.3 is available.
+You should consider upgrading via the 'C:\Users\jonat\AppData\Local\Programs\Python\Python39\python.exe -m pip install --upgrade pip' command.
+Collecting discord.py[voice]>=1.2.2
+  Downloading discord.py-1.5.1-py3-none-any.whl (701 kB)
+Collecting aiohttp<3.7.0,>=3.6.0
+  Downloading aiohttp-3.6.3.tar.gz (1.1 MB)
+  Installing build dependencies: started
+  Installing build dependencies: finished with status 'done'
+  Getting requirements to build wheel: started
+  Getting requirements to build wheel: finished with status 'done'
+    Preparing wheel metadata: started
+    Preparing wheel metadata: finished with status 'done'
+Collecting PyNaCl==1.3.0; extra == "voice"
+  Downloading PyNaCl-1.3.0.tar.gz (3.4 MB)
+  Installing build dependencies: started
+  Installing build dependencies: finished with status 'done'
+  Getting requirements to build wheel: started
+  Getting requirements to build wheel: finished with status 'done'
+    Preparing wheel metadata: started
+    Preparing wheel metadata: finished with status 'done'
+Collecting chardet<4.0,>=2.0
+  Downloading chardet-3.0.4-py2.py3-none-any.whl (133 kB)
+Collecting async-timeout<4.0,>=3.0
+  Downloading async_timeout-3.0.1-py3-none-any.whl (8.2 kB)
+Collecting yarl<1.6.0,>=1.0
+  Downloading yarl-1.5.1.tar.gz (173 kB)
+  Installing build dependencies: started
+  Installing build dependencies: finished with status 'done'
+  Getting requirements to build wheel: started
+  Getting requirements to build wheel: finished with status 'done'
+    Preparing wheel metadata: started
+    Preparing wheel metadata: finished with status 'done'
+Collecting attrs>=17.3.0
+  Downloading attrs-20.3.0-py2.py3-none-any.whl (49 kB)
+Collecting multidict<5.0,>=4.5
+  Downloading multidict-4.7.6.tar.gz (50 kB)
+  Installing build dependencies: started
+  Installing build dependencies: finished with status 'done'
+  Getting requirements to build wheel: started
+  Getting requirements to build wheel: finished with status 'done'
+    Preparing wheel metadata: started
+    Preparing wheel metadata: finished with status 'done'
+Collecting six
+  Downloading six-1.15.0-py2.py3-none-any.whl (10 kB)
+Collecting cffi>=1.4.1
+  Using cached cffi-1.14.4-cp39-cp39-win_amd64.whl (179 kB)
+Requirement already satisfied, skipping upgrade: idna>=2.0 in c:\users\jonat\appdata\roaming\python\python39\site-packages (from yarl<1.6.0,>=1.0->aiohttp<3.7.0,>=3.6.0->discord.py[voice]>=1.2.2) (2.10)
+Collecting pycparser
+  Using cached pycparser-2.20-py2.py3-none-any.whl (112 kB)
+Building wheels for collected packages: aiohttp, PyNaCl, yarl, multidict
+  Building wheel for aiohttp (PEP 517): started
+  Building wheel for aiohttp (PEP 517): finished with status 'done'
+  Created wheel for aiohttp: filename=aiohttp-3.6.3-py3-none-any.whl size=440473 sha256=cf20a5d1064ac4beffd04b7a8751a8ea0d7d5b770233aa8f211b494026abd58b
+  Stored in directory: c:\users\jonat\appdata\local\pip\cache\wheels\b6\9c\bd\6b99bc6ec9dab11f3756d31fb8506d3ecf07aea58b6201f539
+  Building wheel for PyNaCl (PEP 517): started
+  Building wheel for PyNaCl (PEP 517): finished with status 'error'
+  ERROR: Command errored out with exit status 1:
+   command: 'C:\Users\jonat\AppData\Local\Programs\Python\Python39\python.exe' 'C:\Users\jonat\AppData\Local\Programs\Python\Python39\lib\site-packages\pip\_vendor\pep517\_in_process.py' build_wheel 'C:\Users\jonat\AppData\Local\Temp\tmpk9hfs510'
+       cwd: C:\Users\jonat\AppData\Local\Temp\pip-install-8rsmbotv\pynacl
+  Complete output (78 lines):
+  running bdist_wheel
+  running build
+  running build_py
+  creating build
+  creating build\lib.win-amd64-3.9
+  creating build\lib.win-amd64-3.9\nacl
+  copying src\nacl\encoding.py -> build\lib.win-amd64-3.9\nacl
+  copying src\nacl\exceptions.py -> build\lib.win-amd64-3.9\nacl
+  copying src\nacl\hash.py -> build\lib.win-amd64-3.9\nacl
+  copying src\nacl\hashlib.py -> build\lib.win-amd64-3.9\nacl
+  copying src\nacl\public.py -> build\lib.win-amd64-3.9\nacl
+  copying src\nacl\secret.py -> build\lib.win-amd64-3.9\nacl
+  copying src\nacl\signing.py -> build\lib.win-amd64-3.9\nacl
+  copying src\nacl\utils.py -> build\lib.win-amd64-3.9\nacl
+  copying src\nacl\__init__.py -> build\lib.win-amd64-3.9\nacl
+  creating build\lib.win-amd64-3.9\nacl\pwhash
+  copying src\nacl\pwhash\argon2i.py -> build\lib.win-amd64-3.9\nacl\pwhash
+  copying src\nacl\pwhash\argon2id.py -> build\lib.win-amd64-3.9\nacl\pwhash
+  copying src\nacl\pwhash\scrypt.py -> build\lib.win-amd64-3.9\nacl\pwhash
+  copying src\nacl\pwhash\_argon2.py -> build\lib.win-amd64-3.9\nacl\pwhash
+  copying src\nacl\pwhash\__init__.py -> build\lib.win-amd64-3.9\nacl\pwhash
+  creating build\lib.win-amd64-3.9\nacl\bindings
+  copying src\nacl\bindings\crypto_aead.py -> build\lib.win-amd64-3.9\nacl\bindings
+  copying src\nacl\bindings\crypto_box.py -> build\lib.win-amd64-3.9\nacl\bindings
+  copying src\nacl\bindings\crypto_generichash.py -> build\lib.win-amd64-3.9\nacl\bindings
+  copying src\nacl\bindings\crypto_hash.py -> build\lib.win-amd64-3.9\nacl\bindings
+  copying src\nacl\bindings\crypto_kx.py -> build\lib.win-amd64-3.9\nacl\bindings
+  copying src\nacl\bindings\crypto_pwhash.py -> build\lib.win-amd64-3.9\nacl\bindings
+  copying src\nacl\bindings\crypto_scalarmult.py -> build\lib.win-amd64-3.9\nacl\bindings
+  copying src\nacl\bindings\crypto_secretbox.py -> build\lib.win-amd64-3.9\nacl\bindings
+  copying src\nacl\bindings\crypto_secretstream.py -> build\lib.win-amd64-3.9\nacl\bindings
+  copying src\nacl\bindings\crypto_shorthash.py -> build\lib.win-amd64-3.9\nacl\bindings
+  copying src\nacl\bindings\crypto_sign.py -> build\lib.win-amd64-3.9\nacl\bindings
+  copying src\nacl\bindings\randombytes.py -> build\lib.win-amd64-3.9\nacl\bindings
+  copying src\nacl\bindings\sodium_core.py -> build\lib.win-amd64-3.9\nacl\bindings
+  copying src\nacl\bindings\utils.py -> build\lib.win-amd64-3.9\nacl\bindings
+  copying src\nacl\bindings\__init__.py -> build\lib.win-amd64-3.9\nacl\bindings
+  running build_clib
+  Traceback (most recent call last):
+    File "C:\Users\jonat\AppData\Local\Programs\Python\Python39\lib\site-packages\pip\_vendor\pep517\_in_process.py", line 280, in <module>
+      main()
+    File "C:\Users\jonat\AppData\Local\Programs\Python\Python39\lib\site-packages\pip\_vendor\pep517\_in_process.py", line 263, in main
+      json_out['return_val'] = hook(**hook_input['kwargs'])
+    File "C:\Users\jonat\AppData\Local\Programs\Python\Python39\lib\site-packages\pip\_vendor\pep517\_in_process.py", line 204, in build_wheel
+      return _build_backend().build_wheel(wheel_directory, config_settings,
+    File "C:\Users\jonat\AppData\Local\Temp\pip-build-env-_ov7ifp4\overlay\Lib\site-packages\setuptools\build_meta.py", line 216, in build_wheel
+      return self._build_with_temp_dir(['bdist_wheel'], '.whl',
+    File "C:\Users\jonat\AppData\Local\Temp\pip-build-env-_ov7ifp4\overlay\Lib\site-packages\setuptools\build_meta.py", line 202, in _build_with_temp_dir
+      self.run_setup()
+    File "C:\Users\jonat\AppData\Local\Temp\pip-build-env-_ov7ifp4\overlay\Lib\site-packages\setuptools\build_meta.py", line 253, in run_setup
+      super(_BuildMetaLegacyBackend,
+    File "C:\Users\jonat\AppData\Local\Temp\pip-build-env-_ov7ifp4\overlay\Lib\site-packages\setuptools\build_meta.py", line 145, in run_setup
+      exec(compile(code, __file__, 'exec'), locals())
+    File "setup.py", line 208, in <module>
+      setup(
+    File "C:\Users\jonat\AppData\Local\Temp\pip-build-env-_ov7ifp4\overlay\Lib\site-packages\setuptools\__init__.py", line 153, in setup
+      return distutils.core.setup(**attrs)
+    File "C:\Users\jonat\AppData\Local\Programs\Python\Python39\lib\distutils\core.py", line 148, in setup
+      dist.run_commands()
+    File "C:\Users\jonat\AppData\Local\Programs\Python\Python39\lib\distutils\dist.py", line 966, in run_commands
+      self.run_command(cmd)
+    File "C:\Users\jonat\AppData\Local\Programs\Python\Python39\lib\distutils\dist.py", line 985, in run_command
+      cmd_obj.run()
+    File "C:\Users\jonat\AppData\Local\Temp\pip-build-env-_ov7ifp4\overlay\Lib\site-packages\wheel\bdist_wheel.py", line 299, in run
+      self.run_command('build')
+    File "C:\Users\jonat\AppData\Local\Programs\Python\Python39\lib\distutils\cmd.py", line 313, in run_command
+      self.distribution.run_command(command)
+    File "C:\Users\jonat\AppData\Local\Programs\Python\Python39\lib\distutils\dist.py", line 985, in run_command
+      cmd_obj.run()
+    File "C:\Users\jonat\AppData\Local\Programs\Python\Python39\lib\distutils\command\build.py", line 135, in run
+      self.run_command(cmd_name)
+    File "C:\Users\jonat\AppData\Local\Programs\Python\Python39\lib\distutils\cmd.py", line 313, in run_command
+      self.distribution.run_command(command)
+    File "C:\Users\jonat\AppData\Local\Programs\Python\Python39\lib\distutils\dist.py", line 985, in run_command
+      cmd_obj.run()
+    File "setup.py", line 159, in run
+      raise Exception("ERROR: The 'make' utility is missing from PATH")
+  Exception: ERROR: The 'make' utility is missing from PATH
+  ----------------------------------------
+  ERROR: Failed building wheel for PyNaCl
+  Building wheel for yarl (PEP 517): started
+  Building wheel for yarl (PEP 517): finished with status 'error'
+  ERROR: Command errored out with exit status 1:
+   command: 'C:\Users\jonat\AppData\Local\Programs\Python\Python39\python.exe' 'C:\Users\jonat\AppData\Local\Programs\Python\Python39\lib\site-packages\pip\_vendor\pep517\_in_process.py' build_wheel 'C:\Users\jonat\AppData\Local\Temp\tmpccwddcmz'
+       cwd: C:\Users\jonat\AppData\Local\Temp\pip-install-8rsmbotv\yarl
+  Complete output (35 lines):
+  **********************
+  * Accellerated build *
+  **********************
+  running bdist_wheel
+  running build
+  running build_py
+  creating build
+  creating build\lib.win-amd64-3.9
+  creating build\lib.win-amd64-3.9\yarl
+  copying yarl\_quoting.py -> build\lib.win-amd64-3.9\yarl
+  copying yarl\_quoting_py.py -> build\lib.win-amd64-3.9\yarl
+  copying yarl\_url.py -> build\lib.win-amd64-3.9\yarl
+  copying yarl\__init__.py -> build\lib.win-amd64-3.9\yarl
+  running egg_info
+  writing yarl.egg-info\PKG-INFO
+  writing dependency_links to yarl.egg-info\dependency_links.txt
+  writing requirements to yarl.egg-info\requires.txt
+  writing top-level names to yarl.egg-info\top_level.txt
+  reading manifest file 'yarl.egg-info\SOURCES.txt'
+  reading manifest template 'MANIFEST.in'
+  warning: no previously-included files matching '*.pyc' found anywhere in distribution
+  warning: no previously-included files matching '*.cache' found anywhere in distribution
+  warning: no previously-included files found matching 'yarl\*.html'
+  warning: no previously-included files found matching 'yarl\*.so'
+  warning: no previously-included files found matching 'yarl\*.pyd'
+  no previously-included directories found matching 'docs\_build'
+  writing manifest file 'yarl.egg-info\SOURCES.txt'
+  copying yarl\__init__.pyi -> build\lib.win-amd64-3.9\yarl
+  copying yarl\_quoting_c.c -> build\lib.win-amd64-3.9\yarl
+  copying yarl\_quoting_c.pyi -> build\lib.win-amd64-3.9\yarl
+  copying yarl\_quoting_c.pyx -> build\lib.win-amd64-3.9\yarl
+  copying yarl\py.typed -> build\lib.win-amd64-3.9\yarl
+  running build_ext
+  building 'yarl._quoting_c' extension
+  error: Microsoft Visual C++ 14.0 or greater is required. Get it with "Microsoft C++ Build Tools": https://visualstudio.microsoft.com/visual-cpp-build-tools/
+  ----------------------------------------
+  ERROR: Failed building wheel for yarl
+  Building wheel for multidict (PEP 517): started
+  Building wheel for multidict (PEP 517): finished with status 'error'
+  ERROR: Command errored out with exit status 1:
+   command: 'C:\Users\jonat\AppData\Local\Programs\Python\Python39\python.exe' 'C:\Users\jonat\AppData\Local\Programs\Python\Python39\lib\site-packages\pip\_vendor\pep517\_in_process.py' build_wheel 'C:\Users\jonat\AppData\Local\Temp\tmp4zxbiqwg'
+       cwd: C:\Users\jonat\AppData\Local\Temp\pip-install-8rsmbotv\multidict
+  Complete output (40 lines):
+  **********************
+  * Accellerated build *
+  **********************
+  running bdist_wheel
+  running build
+  running build_py
+  creating build
+  creating build\lib.win-amd64-3.9
+  creating build\lib.win-amd64-3.9\multidict
+  copying multidict\_abc.py -> build\lib.win-amd64-3.9\multidict
+  copying multidict\_compat.py -> build\lib.win-amd64-3.9\multidict
+  copying multidict\_multidict_base.py -> build\lib.win-amd64-3.9\multidict
+  copying multidict\_multidict_py.py -> build\lib.win-amd64-3.9\multidict
+  copying multidict\__init__.py -> build\lib.win-amd64-3.9\multidict
+  running egg_info
+  writing multidict.egg-info\PKG-INFO
+  writing dependency_links to multidict.egg-info\dependency_links.txt
+  writing top-level names to multidict.egg-info\top_level.txt
+  reading manifest file 'multidict.egg-info\SOURCES.txt'
+  reading manifest template 'MANIFEST.in'
+  warning: no previously-included files matching '*.pyc' found anywhere in distribution
+  warning: no previously-included files found matching 'multidict\_multidict.html'
+  warning: no previously-included files found matching 'multidict\*.so'
+  warning: no previously-included files found matching 'multidict\*.pyd'
+  warning: no previously-included files found matching 'multidict\*.pyd'
+  no previously-included directories found matching 'docs\_build'
+  writing manifest file 'multidict.egg-info\SOURCES.txt'
+  copying multidict\__init__.pyi -> build\lib.win-amd64-3.9\multidict
+  copying multidict\_multidict.c -> build\lib.win-amd64-3.9\multidict
+  copying multidict\py.typed -> build\lib.win-amd64-3.9\multidict
+  creating build\lib.win-amd64-3.9\multidict\_multilib
+  copying multidict\_multilib\defs.h -> build\lib.win-amd64-3.9\multidict\_multilib
+  copying multidict\_multilib\dict.h -> build\lib.win-amd64-3.9\multidict\_multilib
+  copying multidict\_multilib\istr.h -> build\lib.win-amd64-3.9\multidict\_multilib
+  copying multidict\_multilib\iter.h -> build\lib.win-amd64-3.9\multidict\_multilib
+  copying multidict\_multilib\pair_list.h -> build\lib.win-amd64-3.9\multidict\_multilib
+  copying multidict\_multilib\views.h -> build\lib.win-amd64-3.9\multidict\_multilib
+  running build_ext
+  building 'multidict._multidict' extension
+  error: Microsoft Visual C++ 14.0 or greater is required. Get it with "Microsoft C++ Build Tools": https://visualstudio.microsoft.com/visual-cpp-build-tools/
+  ----------------------------------------
+  ERROR: Failed building wheel for multidict
+Successfully built aiohttp
+Failed to build PyNaCl yarl multidict
+ERROR: Could not build wheels for PyNaCl, yarl, multidict which use PEP 517 and cannot be installed directly
+WARNING: You are using pip version 20.2.3; however, version 20.3.3 is available.
+You should consider upgrading via the 'C:\Users\jonat\AppData\Local\Programs\Python\Python39\python.exe -m pip install --upgrade pip' command.
+Collecting termcolor>=1.1.0
+  Downloading termcolor-1.1.0.tar.gz (3.9 kB)
+Using legacy 'setup.py install' for termcolor, since package 'wheel' is not installed.
+Installing collected packages: termcolor
+    Running setup.py install for termcolor: started
+    Running setup.py install for termcolor: finished with status 'done'
+Successfully installed termcolor-1.1.0
+WARNING: You are using pip version 20.2.3; however, version 20.3.3 is available.
+You should consider upgrading via the 'C:\Users\jonat\AppData\Local\Programs\Python\Python39\python.exe -m pip install --upgrade pip' command.
+Collecting colorama>=0.4.1
+  Downloading colorama-0.4.4-py2.py3-none-any.whl (16 kB)
+Installing collected packages: colorama
+Successfully installed colorama-0.4.4
+WARNING: You are using pip version 20.2.3; however, version 20.3.3 is available.
+You should consider upgrading via the 'C:\Users\jonat\AppData\Local\Programs\Python\Python39\python.exe -m pip install --upgrade pip' command.
+Collecting youtube_dl>=2019.8.2
+  Downloading youtube_dl-2020.12.31-py2.py3-none-any.whl (1.9 MB)
+Installing collected packages: youtube-dl
+  WARNING: The script youtube-dl.exe is installed in 'C:\Users\jonat\AppData\Roaming\Python\Python39\Scripts' which is not on PATH.
+  Consider adding this directory to PATH or, if you prefer to suppress this warning, use --no-warn-script-location.
+Successfully installed youtube-dl-2020.12.31
+WARNING: You are using pip version 20.2.3; however, version 20.3.3 is available.
+You should consider upgrading via the 'C:\Users\jonat\AppData\Local\Programs\Python\Python39\python.exe -m pip install --upgrade pip' command.
+Collecting pyperclip>=1.7.0
+  Downloading pyperclip-1.8.1.tar.gz (20 kB)
+Using legacy 'setup.py install' for pyperclip, since package 'wheel' is not installed.
+Installing collected packages: pyperclip
+    Running setup.py install for pyperclip: started
+    Running setup.py install for pyperclip: finished with status 'done'
+Successfully installed pyperclip-1.8.1
+WARNING: You are using pip version 20.2.3; however, version 20.3.3 is available.
+You should consider upgrading via the 'C:\Users\jonat\AppData\Local\Programs\Python\Python39\python.exe -m pip install --upgrade pip' command.
+Collecting animation>=0.0.6
+  Downloading animation-0.0.6-py2.py3-none-any.whl (8.3 kB)
+Installing collected packages: animation
+Successfully installed animation-0.0.6
+WARNING: You are using pip version 20.2.3; however, version 20.3.3 is available.
+You should consider upgrading via the 'C:\Users\jonat\AppData\Local\Programs\Python\Python39\python.exe -m pip install --upgrade pip' command.
+Collecting py-cpuinfo>=5.0.0
+  Downloading py-cpuinfo-7.0.0.tar.gz (95 kB)
+Using legacy 'setup.py install' for py-cpuinfo, since package 'wheel' is not installed.
+Installing collected packages: py-cpuinfo
+    Running setup.py install for py-cpuinfo: started
+    Running setup.py install for py-cpuinfo: finished with status 'done'
+Successfully installed py-cpuinfo-7.0.0
+WARNING: You are using pip version 20.2.3; however, version 20.3.3 is available.
+You should consider upgrading via the 'C:\Users\jonat\AppData\Local\Programs\Python\Python39\python.exe -m pip install --upgrade pip' command.
+Collecting dhooks>=1.1.0
+  Downloading dhooks-1.1.4.tar.gz (11 kB)
+Collecting aiohttp
+  Downloading aiohttp-3.7.3-cp39-cp39-win_amd64.whl (633 kB)
+Requirement already satisfied, skipping upgrade: requests in c:\users\jonat\appdata\roaming\python\python39\site-packages (from dhooks>=1.1.0) (2.25.1)
+Collecting yarl<2.0,>=1.0
+  Downloading yarl-1.6.3-cp39-cp39-win_amd64.whl (125 kB)
+Collecting attrs>=17.3.0
+  Using cached attrs-20.3.0-py2.py3-none-any.whl (49 kB)
+Collecting multidict<7.0,>=4.5
+  Downloading multidict-5.1.0-cp39-cp39-win_amd64.whl (48 kB)
+Collecting typing-extensions>=3.6.5
+  Downloading typing_extensions-3.7.4.3-py3-none-any.whl (22 kB)
+Collecting async-timeout<4.0,>=3.0
+  Using cached async_timeout-3.0.1-py3-none-any.whl (8.2 kB)
+Collecting chardet<4.0,>=2.0
+  Using cached chardet-3.0.4-py2.py3-none-any.whl (133 kB)
+Requirement already satisfied, skipping upgrade: idna<3,>=2.5 in c:\users\jonat\appdata\roaming\python\python39\site-packages (from requests->dhooks>=1.1.0) (2.10)
+Requirement already satisfied, skipping upgrade: certifi>=2017.4.17 in c:\users\jonat\appdata\roaming\python\python39\site-packages (from requests->dhooks>=1.1.0) (2020.12.5)
+Requirement already satisfied, skipping upgrade: urllib3<1.27,>=1.21.1 in c:\users\jonat\appdata\roaming\python\python39\site-packages (from requests->dhooks>=1.1.0) (1.26.2)
+Using legacy 'setup.py install' for dhooks, since package 'wheel' is not installed.
+Installing collected packages: multidict, yarl, attrs, typing-extensions, async-timeout, chardet, aiohttp, dhooks
+  Attempting uninstall: chardet
+    Found existing installation: chardet 4.0.0
+    Uninstalling chardet-4.0.0:
+      Successfully uninstalled chardet-4.0.0
+  WARNING: The script chardetect.exe is installed in 'C:\Users\jonat\AppData\Roaming\Python\Python39\Scripts' which is not on PATH.
+  Consider adding this directory to PATH or, if you prefer to suppress this warning, use --no-warn-script-location.
+    Running setup.py install for dhooks: started
+    Running setup.py install for dhooks: finished with status 'done'
+Successfully installed aiohttp-3.7.3 async-timeout-3.0.1 attrs-20.3.0 chardet-3.0.4 dhooks-1.1.4 multidict-5.1.0 typing-extensions-3.7.4.3 yarl-1.6.3
+WARNING: You are using pip version 20.2.3; however, version 20.3.3 is available.
+You should consider upgrading via the 'C:\Users\jonat\AppData\Local\Programs\Python\Python39\python.exe -m pip install --upgrade pip' command.
+Collecting PySimpleGUI==4.11.0
+  Downloading PySimpleGUI-4.11.0-py3-none-any.whl (285 kB)
+Installing collected packages: PySimpleGUI
+  Attempting uninstall: PySimpleGUI
+    Found existing installation: PySimpleGUI 4.32.1
+    Uninstalling PySimpleGUI-4.32.1:
+      Successfully uninstalled PySimpleGUI-4.32.1
+Successfully installed PySimpleGUI-4.11.0
+WARNING: You are using pip version 20.2.3; however, version 20.3.3 is available.
+You should consider upgrading via the 'C:\Users\jonat\AppData\Local\Programs\Python\Python39\python.exe -m pip install --upgrade pip' command.
+Collecting PySimpleGUIQt>=0.26.0
+  Downloading PySimpleGUIQt-0.35.0-py3-none-any.whl (82 kB)
+Collecting pyside2
+  Downloading PySide2-5.15.2-5.15.2-cp35.cp36.cp37.cp38.cp39-none-win_amd64.whl (136.3 MB)
+Collecting shiboken2==5.15.2
+  Downloading shiboken2-5.15.2-5.15.2-cp35.cp36.cp37.cp38.cp39-none-win_amd64.whl (2.3 MB)
+Installing collected packages: shiboken2, pyside2, PySimpleGUIQt
+  WARNING: The scripts pyside2-designer.exe, pyside2-lupdate.exe, pyside2-rcc.exe and pyside2-uic.exe are installed in 'C:\Users\jonat\AppData\Roaming\Python\Python39\Scripts' which is not on PATH.
+  Consider adding this directory to PATH or, if you prefer to suppress this warning, use --no-warn-script-location.
+Successfully installed PySimpleGUIQt-0.35.0 pyside2-5.15.2 shiboken2-5.15.2
+WARNING: You are using pip version 20.2.3; however, version 20.3.3 is available.
+You should consider upgrading via the 'C:\Users\jonat\AppData\Local\Programs\Python\Python39\python.exe -m pip install --upgrade pip' command.
+Requirement already up-to-date: PySide2>=5.13.0 in c:\users\jonat\appdata\roaming\python\python39\site-packages (5.15.2)
+Requirement already satisfied, skipping upgrade: shiboken2==5.15.2 in c:\users\jonat\appdata\roaming\python\python39\site-packages (from PySide2>=5.13.0) (5.15.2)
+WARNING: You are using pip version 20.2.3; however, version 20.3.3 is available.
+You should consider upgrading via the 'C:\Users\jonat\AppData\Local\Programs\Python\Python39\python.exe -m pip install --upgrade pip' command.
+Collecting psutil>=5.6.3
+  Downloading psutil-5.8.0-cp39-cp39-win_amd64.whl (246 kB)
+Installing collected packages: psutil
+Successfully installed psutil-5.8.0
+WARNING: You are using pip version 20.2.3; however, version 20.3.3 is available.
+You should consider upgrading via the 'C:\Users\jonat\AppData\Local\Programs\Python\Python39\python.exe -m pip install --upgrade pip' command.
+Collecting websocket_client>=0.56.0
+  Downloading websocket_client-0.57.0-py2.py3-none-any.whl (200 kB)
+Collecting six
+  Using cached six-1.15.0-py2.py3-none-any.whl (10 kB)
+Installing collected packages: six, websocket-client
+Successfully installed six-1.15.0 websocket-client-0.57.0
+WARNING: You are using pip version 20.2.3; however, version 20.3.3 is available.
+You should consider upgrading via the 'C:\Users\jonat\AppData\Local\Programs\Python\Python39\python.exe -m pip install --upgrade pip' command.
+Collecting emoji>=0.5.2
+  Downloading emoji-0.6.0.tar.gz (51 kB)
+Using legacy 'setup.py install' for emoji, since package 'wheel' is not installed.
+Installing collected packages: emoji
+    Running setup.py install for emoji: started
+    Running setup.py install for emoji: finished with status 'done'
+Successfully installed emoji-0.6.0
+WARNING: You are using pip version 20.2.3; however, version 20.3.3 is available.
+You should consider upgrading via the 'C:\Users\jonat\AppData\Local\Programs\Python\Python39\python.exe -m pip install --upgrade pip' command.
+Collecting playsound>=1.2.2
+  Downloading playsound-1.2.2-py2.py3-none-any.whl (6.0 kB)
+Installing collected packages: playsound
+Successfully installed playsound-1.2.2
+WARNING: You are using pip version 20.2.3; however, version 20.3.3 is available.
+You should consider upgrading via the 'C:\Users\jonat\AppData\Local\Programs\Python\Python39\python.exe -m pip install --upgrade pip' command.
+Collecting selenium>=3.141.0
+  Downloading selenium-3.141.0-py2.py3-none-any.whl (904 kB)
+Requirement already satisfied, skipping upgrade: urllib3 in c:\users\jonat\appdata\roaming\python\python39\site-packages (from selenium>=3.141.0) (1.26.2)
+Installing collected packages: selenium
+Successfully installed selenium-3.141.0
+WARNING: You are using pip version 20.2.3; however, version 20.3.3 is available.
+You should consider upgrading via the 'C:\Users\jonat\AppData\Local\Programs\Python\Python39\python.exe -m pip install --upgrade pip' command.
+Collecting pyinstaller>=3.5
+  Downloading pyinstaller-4.1.tar.gz (3.5 MB)
+  Installing build dependencies: started
+  Installing build dependencies: finished with status 'done'
+  Getting requirements to build wheel: started
+  Getting requirements to build wheel: finished with status 'done'
+    Preparing wheel metadata: started
+    Preparing wheel metadata: finished with status 'done'
+Collecting pefile>=2017.8.1; sys_platform == "win32"
+  Downloading pefile-2019.4.18.tar.gz (62 kB)
+Requirement already satisfied, skipping upgrade: setuptools in c:\users\jonat\appdata\local\programs\python\python39\lib\site-packages (from pyinstaller>=3.5) (49.2.1)
+Collecting altgraph
+  Downloading altgraph-0.17-py2.py3-none-any.whl (21 kB)
+Collecting pyinstaller-hooks-contrib>=2020.6
+  Downloading pyinstaller_hooks_contrib-2020.11-py2.py3-none-any.whl (172 kB)
+Collecting pywin32-ctypes>=0.2.0; sys_platform == "win32"
+  Downloading pywin32_ctypes-0.2.0-py2.py3-none-any.whl (28 kB)
+Collecting future
+  Downloading future-0.18.2.tar.gz (829 kB)
+Using legacy 'setup.py install' for pefile, since package 'wheel' is not installed.
+Using legacy 'setup.py install' for future, since package 'wheel' is not installed.
+Building wheels for collected packages: pyinstaller
+  Building wheel for pyinstaller (PEP 517): started
+  Building wheel for pyinstaller (PEP 517): finished with status 'done'
+  Created wheel for pyinstaller: filename=pyinstaller-4.1-py3-none-any.whl size=2790249 sha256=7179329e8d7840163dac7dc5c392c22d6143309cae48791e87a94db097fd43a7
+  Stored in directory: c:\users\jonat\appdata\local\pip\cache\wheels\30\0b\3c\7692e73baa6781c79b3945d2baabacc43889546a430324cd83
+Successfully built pyinstaller
+Installing collected packages: future, pefile, altgraph, pyinstaller-hooks-contrib, pywin32-ctypes, pyinstaller
+    Running setup.py install for future: started
+    Running setup.py install for future: finished with status 'done'
+    Running setup.py install for pefile: started
+    Running setup.py install for pefile: finished with status 'done'
+  WARNING: The scripts pyi-archive_viewer.exe, pyi-bindepend.exe, pyi-grab_version.exe, pyi-makespec.exe, pyi-set_version.exe and pyinstaller.exe are installed in 'C:\Users\jonat\AppData\Roaming\Python\Python39\Scripts' which is not on PATH.
+  Consider adding this directory to PATH or, if you prefer to suppress this warning, use --no-warn-script-location.
+Successfully installed altgraph-0.17 future-0.18.2 pefile-2019.4.18 pyinstaller-4.1 pyinstaller-hooks-contrib-2020.11 pywin32-ctypes-0.2.0
+WARNING: You are using pip version 20.2.3; however, version 20.3.3 is available.
+You should consider upgrading via the 'C:\Users\jonat\AppData\Local\Programs\Python\Python39\python.exe -m pip install --upgrade pip' command.
+Requirement already up-to-date: pluginbase>=1.0.0 in c:\users\jonat\appdata\roaming\python\python39\site-packages (1.0.0)
+WARNING: You are using pip version 20.2.3; however, version 20.3.3 is available.
+You should consider upgrading via the 'C:\Users\jonat\AppData\Local\Programs\Python\Python39\python.exe -m pip install --upgrade pip' command.
+Collecting Pillow>=6.1.0
+  Downloading Pillow-8.0.1-cp39-cp39-win_amd64.whl (2.1 MB)
+Installing collected packages: Pillow
+Successfully installed Pillow-8.0.1
+WARNING: You are using pip version 20.2.3; however, version 20.3.3 is available.
+You should consider upgrading via the 'C:\Users\jonat\AppData\Local\Programs\Python\Python39\python.exe -m pip install --upgrade pip' command.
+Collecting pysocks>=1.7.0
+  Downloading PySocks-1.7.1-py3-none-any.whl (16 kB)
+Installing collected packages: pysocks
+Successfully installed pysocks-1.7.1
+WARNING: You are using pip version 20.2.3; however, version 20.3.3 is available.
+You should consider upgrading via the 'C:\Users\jonat\AppData\Local\Programs\Python\Python39\python.exe -m pip install --upgrade pip' command.
